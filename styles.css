@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto&display=swap');
+:root {
+  --color-primary-blue: #2b7fff;
+  --color-primary-white:#fff;
+  --color-primary-grey: #747272;
+}
+body {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+    height: 100%;
+}
+.blue {
+  color:var(--color-primary-blue);
+  }
+  button {
+  background-color:var(--color-primary-blue);
+  color: var(--color-primary-white);
+}
+
+/* header */
+.header {
+  list-style-type: none;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 1440px;
+  height: 106px;
+}
+header {
+  background-image: url(images/image1576.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+   height: auto; 
+   
+}
+ul.horizontal-list {
+  list-style-type: none;
+  padding: 0;
+}
+ul.horizontal-list li {
+  
+display: inline;
+
+}
+h1 {
+  color: #2b7fff;
+  padding: 0;
+    margin: 0;
+}
+.bzone {
+  font-family: Play;
+  border: none;
+}
+/* SEARCH */
+h2 {
+  color: #011c44;
+  font-family: Play;
+  font-weight: 700;
+}
+#free {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+}
+#policy {
+  color: var(--color-primary-grey);
+}
+/* PROCEDUR */
+.photo3 {
+  list-style-type: none;
+  font-family: Roboto;
+  font-weight: 400;
+}
+/* ZONE 3 CHOICE */
+.choice {
+  list-style-type: none;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+
+/* FOOTER */
+footer {
+  justify-content: center;
+  align-items: center;
+}
